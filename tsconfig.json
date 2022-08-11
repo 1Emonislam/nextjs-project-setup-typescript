@@ -5,7 +5,7 @@
     "jsx": "preserve",
     "lib": [
       "dom",
-      "es2017"
+      "es2015"
     ],
     "baseUrl": ".",
     "moduleResolution": "node",
@@ -34,6 +34,7 @@
   "include": [
     "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx"
+    "**/*.tsx",
+    "src/"
   ]
 }
