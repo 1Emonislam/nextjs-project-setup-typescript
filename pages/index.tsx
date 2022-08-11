@@ -1,18 +1,18 @@
-import Link from 'next/link'
+import type { NextPage } from 'next'
+import Head from 'next/head'
 
-export default function Home() {
+const IndexPage: NextPage = () => {
   return (
-    <ul>
-      <li>
-        <Link href="/a" as="/a">
-          <a>a</a>
-        </Link>
-      </li>
-      <li>
-        <Link href="/b" as="/b">
-          <a>b</a>
-        </Link>
-      </li>
-    </ul>
+    <section>
+      <Head>
+        <title>Redux Toolkit</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <header>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus eveniet deserunt tempora. Explicabo nemo enim ducimus laboriosam voluptatum laborum consequatur eligendi, minima, quaerat repudiandae rerum quas. Debitis voluptatem vero facere architecto, error voluptates dolorem. Reprehenderit, explicabo! Earum in, unde cum perspiciatis, fugit tempore fuga nobis dicta quibusdam rem rerum eius.
+      </header>
+    </section>
   )
 }
+
+export default IndexPage
